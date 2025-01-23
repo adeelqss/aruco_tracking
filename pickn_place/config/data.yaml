@@ -1,0 +1,5 @@
+markers:
+  39:
+    size: 0.05             # Marker side length in meters
+    frame_name: "aruco_39" # The child frame name to publish
+

@@ -1,0 +1,37 @@
+digraph G {
+"camera_link" -> "camera_depth_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_mount_link" -> "camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_link" -> "camera_color_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"camera_color_frame" -> "camera_color_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "Grinder_base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"dummy_link" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "Grinder_machine"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link6" -> "calibration_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link5" -> "Link6"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"robotiq_85_base_link" -> "camera_mount_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link6" -> "robotiq_85_base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"coffee_machine" -> "coffee_machine_base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "coffee_machine"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link6" -> "cup_offset_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"left_outer_knuckle" -> "left_outer_finger"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robotiq_85_base_link" -> "left_outer_knuckle"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link6" -> "portafilter_offset_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"right_outer_knuckle" -> "right_outer_finger"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robotiq_85_base_link" -> "right_outer_knuckle"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link6" -> "tool_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "Link1"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link1" -> "Link2"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link2" -> "Link3"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link3" -> "Link4"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"Link4" -> "Link5"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"left_inner_knuckle" -> "left_inner_finger"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"robotiq_85_base_link" -> "left_inner_knuckle"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"right_inner_knuckle" -> "right_inner_finger"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+"robotiq_85_base_link" -> "right_inner_knuckle"[label=" Broadcaster: default_authority\nAverage rate: 14.487\nBuffer length: 4.97\nMost recent transform: 1736857810.078202\nOldest transform: 1736857805.108206\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1736857810.1037393"[ shape=plaintext ] ;
+}->"dummy_link";
+}
